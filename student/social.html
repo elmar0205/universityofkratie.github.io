@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>University of Kratie</title>
+    <link rel="shortcut icon" href="/images/logokratie.png">  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/jquery-ui.css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="/fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="/css/aos.css">
+    <link href="/css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <style>
+    .text-center {
+      text-align: center;
+    }
+    #title {
+      font-weight: bold; 
+      font-family: Arial, Helvetica, sans-serif;
+      color: #80808c;
+      transition: color 0.5s ease; /
+    }
+    @media (min-width: 576px) {
+      .form-inline .custom-select, .form-inline .input-group {
+        width: 100%;
+      }
+      .menubar {
+        order: 1; 
+      }
+      .footer .copyright {
+        padding-top: 2rem;
+      }
+    }
+    @media (min-width: 768px) {
+      .menubar {
+        order: 1; 
+      }
+    }
+    @media (min-width: 992px) { 
+      .container {
+        max-width: 992px;
+      }
+      .title {
+        font-size: 15px;
+        align-items: left;
+        justify-content: left;
+        display: flex;
+      }
+      .site-navbar .site-navigation .site-menu > li > a {
+        font-size: 15px;
+      }
+    }
+    @media (min-width: 1200px) {
+      .container {
+        max-width: 1241px;
+      }
+      .title {
+        font-size: 30px;
+      }
+      .site-navbar .site-navigation .site-menu > li > a {
+        font-size: 16px;
+      }
+    }
+    body.scrolled #title {
+      color: white;
+    }
+    
+    body.scrolled #title2 {
+      color: white;
+    }
+
+  </style>
+
+  <script>
+    window.addEventListener('scroll', function() {
+      const body = document.body;
+      const scrollY = window.scrollY;
+
+      if (scrollY > 0) {
+        body.classList.add('scrolled');
+      } else {
+        body.classList.remove('scrolled');
+      }
+    });
+  </script>
+
+    <div class="site-wrap">
+
+        <div class="site-mobile-menu site-navbar-target">
+            <div class="site-mobile-menu-header">
+                <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+                </div>
+            </div>
+            <div class="site-mobile-menu-body"></div>
+        </div>
+
+        <div class="py-2 bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                <div class="col-lg-9 d-none d-lg-block">
+                    <a href="#" class="small mr-3"><span class="icon-mail_outline mr-2"></span> Webmail </a> 
+                     
+                    <a href="#" class="small mr-3"><span class="icon-question mr-2"></span> Frequently Asked Questions</a> 
+                    <a href="#" class="small mr-3"><span class="icon-contacts mr-2"></span> Contact</a> 
+                </div>
+                <div class="col-lg-3 text-right">
+                    <!-- Replace Log In and Register with Search -->
+                    <form action="#" method="GET" class="form-inline">
+                        <div class="input-group">
+                            <input type="text" name="query" class="form-control form-control-sm" placeholder="Search...">
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-primary btn-sm rounded-0"><span class="icon-search"></span></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+        <div class="container">
+            <div class="d-flex align-items-center">
+                <!-- Logo on the left -->
+                <div class="site-logo d-flex align-items-center">
+                <a href="/index.html" class="d-block" style="height: 70px; width: 70px;">
+                    <img src="/images/logokratie.png" alt="Image" class="img-fluid">
+                </a>
+                <div class="logo-text text-center"> <!-- Added text-center class here -->
+                <h5 class="title ml-3 mb-0" id="title">University of Kratie</h5>
+                <h6 class="title ml-3 mb-0 text-left" id="title2" style="font-style: italic; font-size: 14px;">Knowledge for Development</h6>
+                </div>
+            </div>
+            <div class="ml-auto">
+                <nav class="site-navigation position-relative text-right" role="navigation">
+                <ul class="site-menu main-menu js-clone-nav d-none d-lg-block">
+                    <li>
+                    <a href="/index.html" class="nav-link text-left">HOME</a>
+                    </li>
+                    <li class="has-children">
+                        <a href="#" class="nav-link text-left">ABOUT</a>
+                        <ul class="dropdown">
+                          <li><a href="/about/universityfounder.html">University Founder</a></li>
+                          <li><a href="/about/universitybackground.html">University Background</a></li>
+                          <li><a href="/about/visionandmission.html">Vision and Mission</a></li>
+                          <li><a href="/about/purpose.html">Purpose</a></li>
+                          <li><a href="/about/valuesandslogan.html">Values and Slogans</a></li>
+                          <li><a href="/about/universitystrategicplan.html">University Strategic Plan</a></li>
+                          <li><a href="/about/universityactionplan.html">University Action Plan</a></li>
+                          <li><a href="/about/recognition.html">Recognition</a></li>
+                        </ul>
+                      </li>
+                    <li class="has-children">
+                        <a href="#" class="nav-link text-left">COLLEGE</a>
+                        <ul class="dropdown">
+                          <li><a href="/college/facultyofbusinessandtourismmanagement.html">Faculty of Business and Tourism Management</a></li>
+                          <li><a href="/college/facultyoflawandeconomics.html">Faculty of Law and Economics</a></li>
+                          <li><a href="/college/facultyofartshumanitiesandlanguages.html">Faculty of Arts, Humanities and Languages</a></li>
+                          <li><a href="/college/facultyofscienceandtechnology.html">Faculty of Science and Technology</a></li>
+                          <li><a href="/college/facultyofagricultureandruraldevelopment.html">Faculty of Agriculture and Rural Development</a></li>
+                        </ul>
+                      </li>
+                    <li class="has-children">
+                        <a href="#" class="nav-link text-left">MANAGEMENT</a>
+                        <ul class="dropdown">
+                          <li><a href="/management/board.html">Board of Directors</a></li>
+                          <li><a href="/management/universitybio.html">University Biography</a></li>
+                          <li><a href="/management/dean.html">Dean and Deputy Dean</a></li>
+                          <li><a href="/management/head.html">Head of Department and Head of Office</a></li>
+                        </ul>
+                      </li>
+                    <li class="has-children">
+                        <a href="#" class="nav-link text-left">STRUCTURE</a>
+                        <ul class="dropdown">
+                          <li><a href="/stucture/managementstructure.html">Management Structure</a></li>
+                          <li><a href="/stucture/facultystructure.html">Faculty Structure</a></li>
+                          <li><a href="/stucture/officestructure.html">Office Structure</a></li>
+                        </ul>
+                      </li>
+                    <li class="has-children">
+                        <a href="#" class="nav-link text-left">STUDENTS</a>
+                        <ul class="dropdown">
+                            <li><a href="natworkshop.html">National-International Workshop</a></li>
+                            <li class="active"><a href="social.html">Student Workshops</a></li>
+                            <li><a href="univlibrary.html">University Library</a></li>
+                            <li><a href="cpc.html">Computer Practice Center</a></li>
+                            <li><a href="researchact.html">Research Activities</a></li>
+                            <li><a href="agriact.html">Agricultural Activities</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                    <a href="/contact.html" class="nav-link text-left">CONTACT</a>
+                    </li>
+                </ul>
+                </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+    <div class="site-section ftco-subscribe-1 site-blocks-cover pb-4" style="background-image: url('/images/univ.jpg')">
+        <div class="container">
+        <div class="row2 align-items-end">
+            <div class="col-lg-7">
+            <h2 class="mb-0">Students</h2>
+            <p></p>
+            </div>
+        </div>
+        </div>
+    </div> 
+    
+
+    <div class="custom-breadcrumns border-bottom">
+    <div class="container">
+        <a href="#">Home</a>
+        <span class="mx-3 icon-keyboard_arrow_right"></span>
+        <span class="current">Students</span>
+        <span class="mx-3 icon-keyboard_arrow_right"></span>
+        <span class="current">Student Workshops</span>
+    </div>
+    </div>
+
+    <div class="container pt-5 mb-5">
+            <div class="row">
+            <div class="col-lg-4">
+                <h2 class="section-title-underline">
+                <span>Student Workshops</span>
+                </h2>
+            </div>
+            <div class="col-lg-4">
+                <p></p>
+            </div>
+            <div class="col-lg-4">
+                <p></p>
+            </div>
+            </div>
+        </div>
+
+    <div class="site-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-6 mb-lg-0 mb-4">
+                    <img src="/images/workshop1.png" alt="Image" class="img-fluid" style="height: 80%; width: 90%;"> 
+                </div>
+                <div class="col-lg-5 ml-auto align-self-center">
+                    <h2 class="section-title-underline mb-5">
+                        <span>"Towards the creation of Asian communities: Youth Capacity Building for Sustainable Community Development"</span>
+                    </h2>
+                    <p>Under the support of Eurasia Foundation, Kratie University held a training workshop on "Towards the creation of Asian communities: Youth Capacity Building for Sustainable Community Development" with speaker Dr. Joon-Kun Chung from Korea and instructor Loch Leaksmey from IFL-RUPP. The seminar includes 8 officers, teachers and students from all generations of Kratie University.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                    <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
+                        <img src="/images/workshop2.png" alt="Image" class="img-fluid" style="height: 80%; width: 90%;"> 
+                    </div>
+                    <div class="col-lg-5 mr-auto align-self-center order-2 order-lg-1">
+                        <h2 class="section-title-underline mb-5">
+                            <span>Kagawa University in Kratie Workshop</span>
+                        </h2>
+                        <p>Kratie University (SOC) organized a joint workshop with Kagawa University (Kagawa University) Japan for 2 days under the high supervision of H.E. Dr. Touch Visal Sok, Secretary of Ministry of Education, Youth and Sports, H.E. Ngy Laymune, Professor of SOC, Dr. Peter Gerald Lutes and Dr. Mika Nomura, professor from Kagawa University. 
+                          This seminar has the participation of Mr.-Mrs. Representatives of Kratie Province, Kratie City, Teachers and Students from 4 High School in Kratie City and Kratie University itself, which has a total of about 200 people. </p>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2">
+              <p class="mb-4"><img src="/images/logokratie.png" alt="Image" class="img-fluid" style="height: 90px; width: 90px;"></p>
+              <p>University of Kratie</p>
+              <p class="Location">St. Samdech Akka Moha Sena Padei Techo Hun Sen (National Road 7), Sre Sdov Village, Sangkat Oru Russey, , Kratie, Cambodia</p>  
+              <p><a href="#">Learn More</a></p>
+            </div>
+  
+            <div class="col-lg-2">
+              <h3 class="footer-heading"><span>Contact</span></h3>
+              <ul class="list-unstyled">
+                  <li><a href="#"><b>Phone: </b>(855) 23 999 999</a></li>    
+                  <li><a href="#" style="font-size: 13px;">Email: info@umekratie.edu.kh</a></li>
+              </ul>
+          </div>
+          <div class="col-lg-2">
+            <h3 class="footer-heading"><span>Kratie College</span></h3>
+            <ul class="list-unstyled">
+                <li><a href="#">Faculty of Business and Tourism Management</a></li>
+                <li><a href="#">Faculty of Law and Economics</a></li>
+                <li><a href="#">Faculty of Arts, Humanities and Languages</a></li>
+                <li><a href="#">Faculty of Science and Technology</a></li>
+                <li><a href="#">Faculty of Agriculture and Rural Development</a></li>
+            </ul>
+          </div>
+            <div class="col-lg-2">
+                <h3 class="footer-heading"><span>Curriculum</span></h3>
+                <ul class="list-unstyled">
+                    <li><a href="#">Master's Degree</a></li>
+                    <li><a href="#">Bachelor Degree</a></li>
+                    <li><a href="#">Associate Degree</a></li>
+                </ul>
+            </div>
+  
+            <div class="col-lg-2">
+              <h3 class="footer-heading"><span>University Partner</span></h3>
+              <ul class="list-unstyled">
+                  <li><a href="#">Confucius Institute at the Royal Academy of Cambodia</a></li>
+                  <li><a href="#">Royal Academy of Cambodia</a></li>
+              </ul>
+          </div>
+          
+      <div class="ml-left">
+        <div class="social-wrap">
+          <a href="https://web.facebook.com/ukt.edu.kh"><span class="icon-facebook"></span></a>
+          <a href="#"><span class="icon-twitter"></span></a>
+          <a href="#"><span class="icon-linkedin"></span></a>
+        </div>
+      </div>
+  
+          <div class="row">
+            <div class="col-12">
+              <div class="copyright" >
+                <p>
+                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | E.Santiago | M.Frimia | Y.Reyes
+                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+<!-- .site-wrap -->
+
+<!-- loader -->
+<div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#00a652"/></svg></div>
+<script src="/js/jquery-3.3.1.min.js"></script>
+<script src="/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="/js/jquery-ui.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/jquery.stellar.min.js"></script>
+<script src="/js/jquery.countdown.min.js"></script>
+<script src="/js/bootstrap-datepicker.min.js"></script>
+<script src="/js/jquery.easing.1.3.js"></script>
+<script src="/js/aos.js"></script>
+<script src="/js/jquery.fancybox.min.js"></script>
+<script src="/js/jquery.sticky.js"></script>
+<script src="/js/jquery.mb.YTPlayer.min.js"></script>
+
+<script src="/js/main.js"></script>
+
+</body>
+
+</html>
